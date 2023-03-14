@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rainha</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body class="bodyrainha">
+    <header>
+        <nav class="nav-bar">
+            <a href="./index.html"><img src="./assets/title.png" alt=""></a>
+            <button id="login">
+                Login
+            </button>
+            <img src="" alt="perfil" id="imagem-perfil">
+        </nav>
+    </header>
+    <main>
+        <section class="apoiadores">
+            <a href="https://www.instagram.com/chopaoopcoes/"><img src="./assets/31.png" alt="chopao"></a>
+            <a href="https://www.instagram.com/mapsolucoesdigitais/"><img src="./assets/35.png" alt="map"></a>
+        </section>
+        <section class="pergunta">
+            <h1>Vote no seu Favorito</h1>
+        </section>
+        <section class="opcoes-voto">
+           <div class="card">
+            <div class="opcao-voto-rainha thauane"></div>
+            <h4 class="nome">Thauane Mendes</h4>
+            <span id="thauane-mendes" class="num-votos"></span>
+            <button id="votar-thauane" class="botao-votar">Votar</button>
+           </div>
+           <div class="card">
+            <div class="opcao-voto-rainha kelly"></div>
+            <h4 class="nome">Kelly Santos</h4>
+            <span id="kelly-santos" class="num-votos"></span>
+            <button id="votar-kelly" class="botao-votar">Votar</button>
+           </div>
+           <div class="card">
+            <div class="opcao-voto-rainha nathalie-neto"></div>
+            <h4 class="nome">Nathalie Neto</h4>
+            <span id="nathalie-neto" class="num-votos"></span>
+            <button id="votar-nathalie-neto" class="botao-votar">Votar</button>
+           </div>
+           <div class="card">
+            <div class="opcao-voto-rainha maria-luisa"></div>
+            <h4 class="nome">Maria Luísa</h4>
+            <span id="maria-luisa" class="num-votos"></span>
+            <button id="votar-maria-luisa" class="botao-votar">Votar</button>
+           </div>
+           <div class="card">
+            <div class="opcao-voto-rainha marina-nunes"></div>
+            <h4 class="nome">Marina Nunes Pinheiro</h4>
+            <span id="marina-nunes" class="num-votos"></span>
+            <button id="votar-marina-nunes" class="botao-votar">Votar</button>
+           </div>
+        </section>
+    </main>
+    <footer>
+        <section class="footer">
+            <div class="copy">
+                <p>© Copyright by M.A.P. Soluções Digitais 2023</p>
+                <a href="https://www.instagram.com/mapsolucoesdigitais/"><i class="fa fa-instagram"></i> M.A.P. Soluções Digitais</a>
+                <a href="https://www.instagram.com/gazetademinasoficial/"><i class="fa fa-instagram"></i> Gazeta de Minas</a>
+            </div>
+        </section>
+    </footer>
+    <div class="popup">
+        <div class="card-login">
+            <header>
+                <a href="./index.html"><i class="arrow left"></i> <p class="voltar">Voltar</p></a>
+            </header>
+            <div class="texto-titulo">
+                <img src="./assets/title.png" alt="title">
+            </div>
+            <div class="texto-login">
+                <h2>Faça login para continuar!</h2>
+            </div>
+            <div class="botao-login">
+                <button id="botao-login"><img src="https://www.google.com/images/branding/googleg/1x/googleg_standard_color_24dp.png" alt="google"><p class="login-google">LOGIN</p></button>
+            </div>
+        </div>
+    </div> 
+<script src="./js/front-rainha.js" type="module"></script>
+</body>
+
+</html>
